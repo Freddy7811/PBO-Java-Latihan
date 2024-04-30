@@ -8,8 +8,10 @@ package asia.bab3;
 /**
  *
  * @author A-11
+ * Nama: Fredi Irawan
+ * NIM: 23201276
  */
-public class Latihanbab3 {
+public class Latihanoperator {
 
     public static void main(String[] args) {
         int angka1 = 10;

@@ -8,11 +8,14 @@ package asia.bab2;
 /**
  *
  * @author A-11
+ * Nama: Fredi Irawan
+ * NIM: 23201276
  */
 import java.util.Scanner; // Import library Scanner untuk input data
 
-public class Latihan3 {
+public class Latihantipedata {
 
+    @SuppressWarnings("empty-statement")
     public static void main(String[] args) {
 // Deklarasi variabel
         char huruf;
@@ -27,7 +30,7 @@ public class Latihan3 {
         Scanner scanner = new Scanner(System.in);
 // Input data karakter
         System.out.println("Masukkan huruf: ");
-        // huruf = scanner.nextChar();
+        huruf = scanner.next().charAt(0);
 // Input data boolean
         System.out.println("Apakah Anda masih belajar (true/false): ");
         isMasihBelajar = scanner.nextBoolean();
@@ -50,8 +53,8 @@ public class Latihan3 {
         System.out.println("Masukkan populasi negara (long): ");
         populasiNegara = scanner.nextLong();
 // Menampilkan data yang diinput
-        //  System.out.println("\nData yang Anda masukkan:")
-       // System.out.println("Huruf: " + huruf);
+        System.out.println("\nData yang Anda masukkan:");
+        System.out.println("Huruf: " + huruf);
         System.out.println("Masih belajar: " + isMasihBelajar);
         System.out.println("Nilai ujian: " + nilaiUjian);
         System.out.println("Harga barang: " + hargaBarang);
